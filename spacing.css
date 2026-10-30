@@ -1,0 +1,32 @@
+/* Consistent section rhythm across all five pages. */
+main .section{padding-block:32px}
+main>.section+.section{padding-top:24px}
+main>.page-head{padding-bottom:24px}
+main>.model-page-head{padding-bottom:5px}
+main>.about-hero{padding-top:44px;padding-bottom:28px}
+footer.wrap{margin-top:24px}
+.home-journeys{padding-top:22px;padding-bottom:32px}
+.home-solution>.section{padding-block:32px}
+main>.home-story{padding-top:32px;padding-bottom:32px}
+main>.home-final{padding-top:16px;padding-bottom:32px}
+.home-hero:after{background:linear-gradient(90deg,#fffffffa 0%,#fffffff0 25%,#ffffffa8 40%,#ffffff00 58%),linear-gradient(0deg,white 0%,#ffffff00 7%)}
+.savings-section{margin-top:40px}
+.product-downloads{margin-top:24px;margin-bottom:12px}
+@media(max-width:760px){
+ main .section{padding-block:24px}
+ main>.section+.section{padding-top:16px}
+ main>.page-head{padding-bottom:20px}
+ main>.model-page-head{padding-bottom:5px}
+ main>.about-hero{padding-top:30px;padding-bottom:20px}
+ footer.wrap{margin-top:16px}
+ main>.home-journeys{padding-top:16px;padding-bottom:24px}
+ .home-solution>.section{padding-block:24px}
+ main>.home-story{padding-top:24px;padding-bottom:24px}
+ main>.home-final{padding-top:8px;padding-bottom:24px}
+ .home-hero:after{background:linear-gradient(180deg,#fffffffc 0%,#fffffff5 34%,#ffffff80 47%,#ffffff00 62%),linear-gradient(0deg,white,#ffffff00 6%)}
+ .savings-section{margin-top:30px}
+ .product-downloads{margin-top:20px;margin-bottom:8px}
+}
+main>section.section.home-journeys{padding-top:24px}
+main>section.section.home-final{padding-top:16px}
+@media(max-width:760px){main>section.section.home-journeys{padding-top:16px}main>section.section.home-final{padding-top:8px}}

@@ -1,0 +1,2 @@
+function energySavings(total,battery){total=Math.max(0,Math.round(Number(total)||0));battery=Math.min(total,Math.max(0,Math.round(Number(battery)||0)));const fuel=total-battery,batteryCost=battery*.25,fuelCost=fuel*2,cost=batteryCost+fuelCost,petrolCost=total*2,dailySavings=petrolCost-cost;return {total,battery,fuel,batteryCost,fuelCost,cost,petrolCost,dailySavings,monthlySavings:dailySavings*30};}
+if(typeof module!=='undefined')module.exports=energySavings;
